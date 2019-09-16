@@ -1,0 +1,144 @@
+body {
+    background: black;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+
+h2 {
+    font-size: 12px;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+h3 {
+    font-size: 10px;
+    color: gray;
+    margin: 2px;
+}
+
+.page {
+    width: 8.5in;
+    height: 11in;
+    margin: auto;
+    background: white;
+}
+
+.me {
+    position: relative;
+    margin-left: 52px;
+    margin-top: 35px;
+    border-radius: 25%;
+    padding: 5px;
+    background-color: black;
+    width: 45px;
+    float: left;
+}
+
+.header {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 40%;
+    float: left;
+}
+
+.timeline {
+    position: relative;
+    float: left;
+    width: 70%;
+}
+
+.timeline::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    background-color: gray;
+    top: 0;
+    bottom: 0;
+    margin-left: 70px;
+    margin-top: 18px;
+}
+
+.timeline .title {
+    position: relative;
+    margin-left: 90px;
+}
+
+.icon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin-left: -32px;
+    background-color: black;
+    top: 3px;
+    border-radius: 20%;
+    z-index: 1;
+}
+
+.event {
+    position: relative;
+    margin-left: 90px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.event::after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    margin-left: -23px;
+    background-color: black;
+    top: 8px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.date {
+    position: absolute;
+    margin-left: -70px;
+    top: 4px;
+    width: 44px;
+    overflow: hidden;
+    color: gray;
+}
+
+ul {
+    padding-left: 13px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.about {
+    position: relative;
+    margin-left: 72%;
+    padding-top: 18px;
+}
+
+.about .title {
+    position: relative;
+    margin-left: 32px;
+}
+
+.logo {
+    height: 15px;
+    padding-top: 2px;
+}
+
+.skill {
+    position: absolute;
+    left: 45px;
+    font-size: 11px;
+}
+
+.level {
+    position: absolute;
+    right: 25px;
+    height: 15px;
+}
