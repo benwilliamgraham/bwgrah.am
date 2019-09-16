@@ -29,7 +29,7 @@ h3 {
 }
 
 .me {
-    position: relative;
+    position: absolute;
     margin-left: 52px;
     margin-top: 35px;
     border-radius: 25%;
@@ -41,8 +41,8 @@ h3 {
 
 .header {
     position: relative;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 120px;
+    margin-top: 22px;
     width: 40%;
     float: left;
 }
