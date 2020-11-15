@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     font-size: 13px;
-    margin-top: 6px;
+    margin-top: 7px;
     margin-bottom: 3px;
 }
 
@@ -88,7 +88,7 @@ h3 {
 .event {
     position: relative;
     margin-left: 90px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     margin-top: 0px;
 }
 
@@ -116,6 +116,10 @@ h3 {
 ul {
     padding-left: 13px;
     margin-top: 4px;
+}
+
+li {
+    margin-bottom: 2px;
 }
 
 .about {
