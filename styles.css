@@ -88,7 +88,7 @@ h3 {
 .event {
     position: relative;
     margin-left: 90px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     margin-top: 0px;
 }
 
@@ -134,7 +134,7 @@ li {
 }
 
 .logo {
-    height: 14px;
+    height: 13px;
     padding-top: 3px;
     padding-left: 10px;
 }
